@@ -1,4 +1,3 @@
-import {cn} from "@/lib/utils";
 import {Title} from "@/components/shared/title";
 import FilterCheckbox from "@/components/shared/filter-checkbox";
 import {Input} from "@/components/ui/input";
@@ -125,6 +124,31 @@ const Filters: React.FC<FiltersProps> = ({className}) => {
                             text: 'Томаты',
                             value: '6',
                         },
+                        {
+                            text: 'Сырный соус',
+                            value: '1',
+                        },
+                        {
+                            text: 'Моццарелла',
+                            value: '2',
+                        },
+                        {
+                            text: 'Чеснок',
+                            value: '3',
+                        },
+                        {
+                            text: 'Солённые огурчики',
+                            value: '4',
+                        },
+                        {
+                            text: 'Красный лук',
+                            value: '5',
+                        },
+                        {
+                            text: 'Томаты',
+                            value: '6',
+                        }
+
                     ]}
                 />
             </div>
